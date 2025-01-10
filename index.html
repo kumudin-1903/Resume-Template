@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume Template</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume-container" id="resume">
+    <!-- Header Section -->
+    <div class="header">
+      <h1 contenteditable="true">ESTELLE DARCY</h1>
+      <h2 contenteditable="true">UX DESIGNER</h2>
+      <p contenteditable="true">
+        123 Anywhere St., Any City | hello@reallygreatsite.com | www.reallygreatsite.com
+      </p>
+    </div>
+
+    <!-- Objective Section -->
+    <div class="section">
+      <h3 contenteditable="true">OBJECTIVE</h3>
+      <p contenteditable="true">
+        UX Designer with a focus on delivering impactful results, eager to tackle dynamic challenges
+        and apply creativity to craft intuitive user experiences. I have demonstrated proficiency in
+        project management, user-centric problem-solving, and seamless collaboration across teams.
+      </p>
+    </div>
+
+    <!-- Area of Expertise Section -->
+    <div class="section">
+      <h3 contenteditable="true">AREA OF EXPERTISE</h3>
+      <div class="expertise-grid">
+        <span contenteditable="true">Prototyping Tools</span>
+        <span contenteditable="true">Interaction Design</span>
+        <span contenteditable="true">Accessibility</span>
+        <span contenteditable="true">User Research</span>
+        <span contenteditable="true">Visual Design</span>
+        <span contenteditable="true">Responsive Design</span>
+        <span contenteditable="true">Design Systems</span>
+        <span contenteditable="true">Information Architecture</span>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section">
+      <h3 contenteditable="true">PROJECTS</h3>
+      <ul>
+        <li contenteditable="true">
+          <strong>E-commerce Redesign</strong> – Redesigned the user interface for a major e-commerce platform, increasing the conversion rate by 20%.
+        </li>
+        <li contenteditable="true">
+          <strong>Mobile Banking App</strong> – Designed an accessible and user-friendly mobile app for a banking service, resulting in 15% higher user retention.
+        </li>
+        <li contenteditable="true">
+          <strong>Healthcare Dashboard</strong> – Developed a data visualization dashboard for a healthcare provider, improving decision-making efficiency by 25%.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Key Achievements Section -->
+    <div class="section">
+      <h3 contenteditable="true">KEY ACHIEVEMENTS</h3>
+      <ul>
+        <li contenteditable="true">
+          Market Expansion: Identified untapped markets and launched a system to harness the market,
+          resulting in a revenue increase of $1.2 Million for Morecircle in 6 months.
+        </li>
+        <li contenteditable="true">
+          Revenue Growth: Successful implementation of a new pricing strategy at Xarrowhill increasing
+          deal size by 15% and market cap by $500,000.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Professional Experience Section -->
+    <div class="section">
+      <h3 contenteditable="true">PROFESSIONAL EXPERIENCE</h3>
+      <div class="experience">
+        <p contenteditable="true">
+          <strong>Instant Charts App, Morecircle Program</strong> | Jan 2023 - Present
+        </p>
+        <ul>
+          <li contenteditable="true">
+            Led development of an advanced automation system, achieving a 15% increase in operational
+            revenue.
+          </li>
+          <li contenteditable="true">
+            Streamlined manufacturing processes, reducing production costs by 10%.
+          </li>
+          <li contenteditable="true">
+            Implemented predictive maintenance strategies, resulting in a 20% decrease in equipment
+            downtime.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+      <h3 contenteditable="true">EDUCATION</h3>
+      <div class="education">
+        <p contenteditable="true">
+          <strong>UK Industrial Design and General Application</strong> | Aug 2016 - Oct 2019
+        </p>
+        <p contenteditable="true">
+          Bachelor of Design in Process Engineering
+        </p>
+      </div>
+    </div>
+
+    <!-- Additional Information Section -->
+    <div class="section">
+      <h3 contenteditable="true">ADDITIONAL INFORMATION</h3>
+      <ul>
+        <li contenteditable="true">
+          Certifications: Professional Design Engineer (PDE) License, Project Management Tech (PMT)
+        </li>
+        <li contenteditable="true">
+          Awards: Most Innovative Employee of the Year 2021, Overall Best Employee Division Two (2024),
+          Onboarding Project Lead (2023)
+        </li>
+      </ul>
+    </div>
+
+    <!-- Save Button -->
+    <button id="savePdf">Save as PDF</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

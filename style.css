@@ -1,0 +1,72 @@
+/* Resume Container */
+/* Set A4 dimensions and scrolling */
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: auto;
+  }
+  
+  .resume-container {
+	width: 210mm;
+	height: 297mm;
+	margin: auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	overflow-y: scroll; /* Enables scrolling */
+  }
+  
+  /* Center Header */
+  .header {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  h1, h2, p {
+	margin: 5px 0;
+  }
+  
+  /* Section Styling */
+  .section {
+	margin-bottom: 20px;
+  }
+  
+  h3 {
+	color: #333;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+  }
+  
+  /* Expertise Grid */
+  .expertise-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5px;
+  }
+  
+  .expertise-grid span {
+	display: block;
+	padding: 5px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+  }
+  
+  /* Save Button */
+  button {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 15px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+  
